@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Arrivals</title>
+    <link rel="stylesheet" href="/dvd.css">
+    <script src="/dvd.js" defer async></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topBar"> 
+        <div class="logo"> <img src="/Book Friends-1.png" id="logo"></div>
+        <div class="searchBar"> 
+            <label></label>
+            <input type="text"> 
+        </div>
+        <div class="login"><button>person</button></div>
+        <div class="basket"> <button>Basket</button></div>
+    </div>
+    
+    <div class="navBar">
+        <ul class="navLinks">
+            <a href="/dvd.html"><li>Home</li></a>
+            <a href="/about.html"><li>About</li></a>
+            <div class="dropdown">
+                <a href="/buy.html"><li>Buy</li></a>
+                <div class="dropdown-content">
+                    <a href="/newArrivals.html">New Arrivals</a>
+                    <a href="/buy.html">All Books</a>
+                    <a href="#">Blind Date with a book</a>
+                  </div>
+                </div>
+            <li>Sell</li>
+            <li>Contact</li>
+    
+        </ul>
+    </div>
+    
+  <section>
+<h2 class="bookPageTitle">All Books</h2>
+
+<!-- Control buttons -->
+<div id="myBtnContainer">
+    <button class="btn" onclick="filterSelection('newArrival')">New Arrivals</button>
+  </div>
+
+<div class="buyProducts">
+<div class="product filterDiv newArrival">
+
+<span class="productTitle">Notes on a nervous planet</span>
+<span class="productAuthor">Matt Haig</span>
+
+<img class="productImage" src="/notesOnANervousplanet.jpg">
+<div class="productDetails">
+    <span class="productPrice">£12.99</span>
+    <button role="button" class="productButton" class="shop-item-button">ADD To BASKET</button>
+</div>
+</div>
+
+<div class="product filterDiv nonFiction newArrival">
+   
+    <span class="productTitle">How not to die</span>
+    <span class="productAuthor">Michael Greger, MD with Gene Stone</span>
+    
+    <img class="productImage" src="/howToNotDie.jpg">
+    <div class="productDetails">
+        <span class="productPrice">£12.99</span>
+        <button role="button" class="shop-item-button">ADD To BASKET</button>
+    </div>
+    </div>
+
+
+
+
+</body>
+</html>

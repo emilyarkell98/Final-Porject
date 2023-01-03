@@ -1,0 +1,298 @@
+<!DOCTYpE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Books</title>
+    <link rel="stylesheet" href="/dvd.css">
+    <script src="/dvd.js" defer async></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topBar"> 
+        <div class="logo"> <img src="/Book Friends-1.png" id="logo"></div>
+        <div class="searchBar"> 
+            <label></label>
+            <input type="text"> 
+        </div>
+        <div class="login"><button>person</button></div>
+        <div class="basket"> <button>Basket</button></div>
+    </div>
+    
+    <div class="navBar">
+        <ul class="navLinks">
+            <a href="/dvd.html"><li>Home</li></a>
+            <a href="/about.html"><li>About</li></a>
+            <div class="dropdown">
+                <a href="/buy.html"><li>Buy</li></a>
+                <div class="dropdown-content">
+                    <a href="/newArrivals.html">New Arrivals</a>
+                    <a href="/buy.html">All Books</a>
+                    <a href="#">Blind Date with a book</a>
+                  </div>
+                </div>
+            <li>Sell</li>
+            <li>Contact</li>
+    
+        </ul>
+    </div>
+    
+  <section>
+<h2 class="bookPageTitle">All Books</h2>
+
+<!-- Control buttons -->
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('fiction')"> Fiction</button>
+    <button class="btn" onclick="filterSelection('nonFiction')"> Non-Fiction</button>
+    <button class="btn" onclick="filterSelection('romance')"> Romance</button>
+    <button class="btn" onclick="filterSelection('crime')"> Crime</button>
+    <button class="btn" onclick="filterSelection('children')"> Children</button>
+    <button class="btn" onclick="filterSelection('biography')"> Biography/Memoir</button>
+    <button class="btn" onclick="filterSelection('sport')"> Sport</button>
+    <button class="btn" onclick="filterSelection('Christmas')">Christmas</button>
+  </div>
+
+<div class="buyProducts">
+<div class="product filterDiv nonFiction">
+
+<span class="productTitle">Notes on a nervous planet</span>
+<span class="productAuthor">Matt Haig</span>
+
+<img class="productImage" src="/notesOnANervousplanet.jpg">
+<div class="productDetails">
+    <span class="productPrice">£12.99</span>
+    <button role="button" class="productButton" class="shop-item-button">Add To BASKET</button>
+</div>
+</div>
+
+<div class="product filterDiv nonFiction">
+   
+    <span class="productTitle">How not to die</span>
+    <span class="productAuthor">Michael Greger, MD with Gene Stone</span>
+    
+    <img class="productImage" src="/howToNotDie.jpg">
+    <div class="productDetails">
+        <span class="productPrice">£12.99</span>
+        <button role="button" class="shop-item-button">Add To BASKET</button>
+    </div>
+    </div>
+
+<div class="product filterDiv fiction children">
+    
+    <span class="productTitle">Cool</span>
+    <span class="productAuthor">Michael Morpurgo</span>
+    
+    <img class="productImage" src="/cool.jpg">
+    <div class="productDetails">
+        <span class="productPrice">£12.99</span>
+        <button role="button" class="shop-item-button">Add To BASKET</button>
+    </div>
+    </div>
+
+    <div class="product filterDiv fiction romance">
+       
+        <span class="productTitle">One Day</span>
+        <span class="productAuthor">David Nicholls</span>
+       
+        <img class="productImage" src="/oneDay.jpg">
+        <div class="productDetails">
+            <span class="productPrice">£12.99</span>
+            <button role="button" class="shop-item-button">Add To BASKET</button>
+        </div>
+        </div>
+
+<div class="product filterDiv fiction children">
+   
+    <span class="productTitle">The Butterfly Lion</span>
+    <span class="productAuthor">Michael Morpurgo</span>
+   
+    <img class="productImage" src="/theButterflyLion.jpg">
+    <div class="productDetails">
+        <span class="productPrice">£12.99</span>
+        <button role="button" class="shop-item-button">Add To BASKET</button>
+    </div>
+    </div>
+    <div class="product filterDiv biography sport">
+        
+        <span class="productTitle nonFiction">Surf for your life</span>
+        <span class="productAuthor">Tim Baker</span>
+        
+        <img class="productImage" src="/surfForYourLife.jpg">
+        <div class="productDetails">
+            <span class="productPrice">£12.99</span>
+            <button role="button" class="shop-item-button">Add To BASKET</button>
+        </div>
+        </div>
+
+<div class="product filterDiv nonFiction biography">
+   
+    <span class="productTitle">The Diary of a Young Girl</span>
+    <span class="productAuthor">Anne Frank</span>
+   
+    <img class="productImage" src="/theDiaryOfAYoungGirl.jpg">
+    <div class="productDetails">
+        <span class="productPrice">£12.99</span>
+        <button role="button" class="shop-item-button">Add To BASKET</button>
+    </div>
+    </div>
+<div class="product filterDiv ficiton crime">
+    
+    <span class="productTitle">Drop Shot</span>
+    <span class="productAuthor">Harlan Coben</span>
+   
+    <img class="productImage" src="/dropShot.jpg">
+    <div class="productDetails">
+        <span class="productPrice">£12.99</span>
+        <button role="button" class="shop-item-button">Add To BASKET</button>
+    </div>
+    </div>
+    <div class="product filterDiv nonFiction biography">
+        
+        <span class="productTitle">Friends, Lovers, and The Big Terrible Thing</span>
+        <span class="productAuthor">Matthew perry</span>
+        
+        <img class="productImage" src="/friendsLovers.jpg">
+        <div class="productDetails">
+            <span class="productPrice" >£12.99</span>
+            <button role="button" class="shop-item-button">Add To BASKET</button>
+        </div>
+        </div>
+    <div class="product filterDiv nonFiction biography">
+        <span class="productTitle">Acid for the children</span>
+        <span class="productAuthor">Flea</span>    
+        <img class="productImage" src="/acidForTheChildren.jpg">
+        <div class="productDetails">
+            <span class="productPrice">£12.99</span>
+            <button role="button" class="shop-item-button">Add To BASKET</button>
+        </div>
+        </div>
+        <div class="product filterDiv fiction children">
+            <span class="productTitle">The Witches</span>
+            <span class="productAuthor">Roald Dahl</span>    
+            <img class="productImage" src="/witches.jpg">
+            <div class="productDetails">
+                <span class="productPrice">£12.99</span>
+                <button role="button" class="shop-item-button">Add To BASKET</button>
+            </div>
+            </div>
+            <div class="product filterDiv nonFiction">
+                <span class="productTitle">Thinking, Fast and Slow</span>
+                <span class="productAuthor">Daniel Kahneman</span>    
+                <img class="productImage" src="/thinking.jpg">
+                <div class="productDetails">
+                    <span class="productPrice">£12.99</span>
+                    <button role="button" class="shop-item-button">Add To BASKET</button>
+                </div>
+                </div>
+        <div class="product filterDiv fiction romance">
+            <span class="productTitle">Eat Pray Love</span>
+            <span class="productAuthor">Elizabeth Gilbert</span>    productTitle
+            <img class="productImage" src="/eatPrayLove.jpg">
+            <div class="productDetails">
+                <span class="productPrice">£12.99</span>
+                <button role="button" class="shop-item-button">Add To BASKET</button>
+            </div>
+            </div>
+        <div class="product filterDiv fiction romance">
+            <span class="productTitle">Me Before You</span>
+            <span class="productAuthor">Jojo Moyes</span>    
+            <img class="productImage" src="/meBeforeYou.jpg">
+            <div class="productDetails">
+                <span class="productPrice">£12.99</span>
+                <button role="button" class="shop-item-button">Add To BASKET</button>
+            </div>
+            </div>
+            <div class="product filterDiv fiction romance">
+                <span class="productTitle">Bridget Jone's Diary</span>
+                <span class="productAuthor">Helen Fielding</span>    
+                <img class="productImage" src="/bridget.jpg">
+                <div class="productDetails">
+                    <span class="productPrice">£12.99</span>
+                    <button role="button" class="shop-item-button">Add To BASKET</button>
+                </div>
+                </div>
+                <div class="product filterDiv fiction romance">
+                    <span class="productTitle">Lessons In Chemistry</span>
+                    <span class="productAuthor">Bonnie Garmus</span>    
+                    <img class="productImage" src="/lessons.jpg">
+                    <div class="productDetails">
+                        <span class="productPrice">£12.99</span>
+                        <button role="button" class="shop-item-button">Add To BASKET</button>
+                    </div>
+                    </div>
+                    <div class="product filterDiv fiction Christmas">
+                        <span class="productTitle">How the Grinch stole Christmas!</span>
+                        <span class="productAuthor">Dr. Seuss</span>    
+                        <img class="productImage" src="/grinch.jpg">
+                        <div class="productDetails">
+                            <span class="productPrice">£12.99</span>
+                            <button role="button" class="shop-item-button">Add To BASKET</button>
+                        </div>
+                    </div>
+                    <div class="product filterDiv fiction Christmas">
+                        <span class="productTitle">A Christmas Carol</span>
+                        <span class="productAuthor">Charles Dickens</span>    
+                        <img class="productImage" src="/christmasCarol.jpg">
+                        <div class="productDetails">
+                            <span class="productPrice">£10.00</span>
+                            <button role="button" class="shop-item-button">Add To BASKET</button>
+                        </div>
+                    </div>
+        
+
+    </div>
+  </section>
+ 
+<!-- this is the basket section -->
+
+  <section class="container content-section">
+<h2 class="basketTitle">Basket</h2>
+<div class="basketRow">
+<span class="basketItem basketHeader basketColumn">item</span>
+<span class="basketPrice basketHeader basketColumn">price</span>
+<span class="basketQuantity basketHeader basketColumn">quantity</span>
+</div>
+<div class="basketItems">
+<!-- <div class="basketRow">
+<div class="basketItem  basketColumn">
+    <img class="basketItemImage" src="/cool.jpg" width="100px" height="100px">
+    <span class="basketItemTitle">Cool by Michael</span>
+</div>
+<div class="basketPrice basketColumn">
+    <span class="productPrice">£12.99</span>
+</div>
+<div class="basketQuantity basketColumn">
+    <label></label>
+    <input type="number" value="1" class="basketQuantityInput">
+    <button role="button" class="basketQuantityButton removeButton" >REMOVE</button>
+</div>
+</div> -->
+</div>
+<div class="basketTotal">
+    <span class="basketTotalTitle">Total</span>
+    <span class="basketTotalPrice">£12.99</span>
+</div>
+    <button role="button" class="buttonPurchase">PURCHASE</button>
+  </section>
+
+
+ 
+
+
+
+
+
+
+    <div class="footer">
+        <ul class="navLinks">
+            <li>Conditions of Use & Sale</li>
+            <li>privacy Notice</li>
+            <li>Cookies Notice</li>
+        </ul>
+        <span id="copyright"> Copyright</span>
+    </div>
+    
+</body>
+</html>
