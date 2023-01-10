@@ -3,4 +3,6 @@ I started by creating the basic outline using HTML, and adding some styling usin
 I added functionality using JavaScript, adding functions such as adding items to the shopping basket and having the basket total be responsive. 
  
 What went well: I got a lot of the functionality of the JavaScript working which I am happy with.
-Different Next time? I've re-started this project and started making a Final Project 2.0 as i thought the overall design of the website was dated and not eye catching. 
+The basic structure of the website is clear, and the use of flexBox worked well for the layout I was looking to achieve.
+Different Next time? I've re-started this project and started making a Final Project 2.0 as I thought the overall design of the website was dated and not eye catching.
+
